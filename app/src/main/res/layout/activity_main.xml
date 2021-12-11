@@ -21,26 +21,6 @@
 
         tools:ignore="InefficientWeight" />
 
-    <Button
-        android:id="@+id/name_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="serif"
-        android:text="@string/press_me"
-        android:textColor="#000000"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/name_view_Text"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#00FDEC55"
-        android:fontFamily="casual"
-        android:gravity="center"
-        android:text=""
-        android:textColor="#FF1100"
-        android:textSize="40sp" />
 
     <Switch
         android:id="@+id/name_Switch"
@@ -51,14 +31,14 @@
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
-        android:id="@+id/name_view_Text3"
+        android:id="@+id/name_view_Text1"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="25dp"
         android:background="#00FDEC55"
         android:fontFamily="casual"
         android:gravity="center"
         android:text=""
-        android:textColor="#FF1100"
+        android:textColor="#18CC1F"
         android:textSize="15sp" />
 
 
@@ -85,7 +65,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/name_Button2"
+        android:id="@+id/name_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
@@ -103,6 +83,32 @@
         android:text=""
         android:textColor="#FF1100"
         android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/name_view_Text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FDEC55"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/android"
+        android:textColor="#041DA6"
+        android:textSize="20sp" />
+
+
+    <CheckBox
+        android:id="@+id/name_check_Box1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/yes" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/no"
+        android:textOn="@string/yes" />
 
 
 </LinearLayout>

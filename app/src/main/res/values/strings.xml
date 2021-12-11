@@ -5,4 +5,7 @@
     <string name="Sum">Сумма</string>
     <string name="Equal">Равно?</string>
     <string name="alarm">Alarm</string>
+    <string name="yes">Да</string>
+    <string name="no">нет</string>
+    <string name="android">Вы хотите стать Android разработчиком?</string>
 </resources>
