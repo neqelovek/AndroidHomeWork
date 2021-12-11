@@ -12,15 +12,20 @@
 
 
     <TextView
+        android:id="@+id/name_text_view"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Hello World!"
-        android:textColor="#FF3700B3"
+        android:textColor="#FD3373"
         android:textSize="40sp"
-        android:background="#FFAAFFAA"
+        android:background="#FDEC55"
+        android:layout_weight="0"
+        android:fontFamily="casual"
 
-        />
+        tools:ignore="InefficientWeight" />
+
+
 
 
 </LinearLayout>
