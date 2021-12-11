@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,34 +9,99 @@
     tools:context=".MainActivity">
 
 
-
     <TextView
-        android:id="@+id/name_text_view"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:gravity="center"
-        android:text="Hello World!"
-        android:textColor="#FD3373"
-        android:textSize="40sp"
         android:background="#FDEC55"
         android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="#2196F3"
+        android:textSize="40sp"
 
         tools:ignore="InefficientWeight" />
-
 
     <Button
         android:id="@+id/name_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/press_me"
-        android:textSize="20sp"
-        android:textColor="#000000"
-        android:fontFamily="serif"
         android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="@string/press_me"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/name_view_Text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00FDEC55"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FF1100"
+        android:textSize="40sp" />
+    <Switch
+        android:id="@+id/name_Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:showText="true"
         />
 
+    <TextView
+        android:id="@+id/name_view_Text3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00FDEC55"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FF1100"
+        android:textSize="15sp" />
 
 
+    <EditText
+        android:id="@+id/name_edit_Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/name_edit_Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/name_Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/Equal"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/name_view_Text2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00FDEC55"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FF1100"
+        android:textSize="40sp" />
 
 
 </LinearLayout>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Home Work</string>
     <string name="press_me">Press Me</string>
+    <string name="enter_the_text">Enter the text:</string>
+    <string name="Sum">Сумма</string>
+    <string name="Equal">Равно?</string>
 </resources>
