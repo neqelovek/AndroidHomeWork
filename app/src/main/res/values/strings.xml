@@ -8,4 +8,13 @@
     <string name="yes">Да</string>
     <string name="no">нет</string>
     <string name="android">Вы хотите стать Android разработчиком?</string>
+    <string name="enterDetails"> Please enter your details</string>
+    <string name="name">Name:</string>
+    <string name="number">Number:</string>
+    <string name="age">Age:</string>
+    <string name="number_phone">Number phone:</string>
+    <string name="email">Email:</string>
+    <string name="date">Date:</string>
+    <string name="password">Password</string>
+    <string name="result">Result</string>
 </resources>
