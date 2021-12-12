@@ -17,9 +17,12 @@
             android:layout_height="wrap_content"
             android:text="@string/enterDetails"
             android:textColor="#FF050D"
-            android:textSize="25sp"
+            android:textSize="25sp" />
 
-            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
 
         <EditText
             android:id="@+id/new_edit_text1"
@@ -27,16 +30,24 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:ems="18"
-            android:inputType="textPersonName"
-            android:text="@string/name" />
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age" />
 
         <EditText
             android:id="@+id/new_edit_text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:inputType="number"
-            android:text="@string/age" />
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number_phone" />
 
 
         <EditText
@@ -44,24 +55,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:inputType="phone"
-            android:text="@string/number_phone" />
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
 
         <EditText
             android:id="@+id/new_edit_text4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:inputType="textEmailAddress"
-            android:text="@string/email" />
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date" />
 
         <EditText
             android:id="@+id/new_edit_text5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:inputType="date"
-            android:text="@string/date" />
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
 
         <EditText
             android:id="@+id/new_edit_text6"
@@ -69,10 +92,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:inputType="textPassword"
-            android:text="@string/password" />
+            android:text="" />
 
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            />
 
     </LinearLayout>
-
 
 </ScrollView>
